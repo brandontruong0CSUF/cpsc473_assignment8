@@ -1,0 +1,11 @@
+{
+  "name": "hw8",
+  "description": "URL shortener using Mongo",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*",
+    "jade": "*"
+  }
+}
