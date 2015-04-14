@@ -24,10 +24,7 @@ console.log("Server running on port 3000");
 
 app.get("/", function(req, res) {
   UrlShortener.find({}).sort({count: -1}).limit(10).exec(function (err, docs) {
-    
-    console.log(docs);
     res.render("index", {"reply": docs});
-
   });
 });
 
